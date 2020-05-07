@@ -1,0 +1,28 @@
+//Main
+package snakeprojecttest;
+
+import javax.swing.JFrame;
+
+
+public class SnakeProjectTest {
+    
+    public SnakeProjectTest(){
+        JFrame frame = new JFrame();
+        Gamepanel gamepanel = new Gamepanel();
+        frame.add(gamepanel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setTitle("Snake Game");
+        frame.pack();
+        frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        
+        
+    }
+  
+    public static void main(String[] args) {
+       new SnakeProjectTest();
+       
+    }
+    
+}
